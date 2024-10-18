@@ -1,0 +1,19 @@
+h2  {
+    color: #9ab973;
+    margin-top: -30px;
+    }
+
+h1  {
+    Font-size: 30 px;
+    }
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(IMAGES/Deanrahijab.png)
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 50% 50%;
+    margin-top: -50px;
+}
