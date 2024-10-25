@@ -1,0 +1,10 @@
+    /*Background Image -- Height Width*/
+    .pnd {
+        height: 80vh;
+        width: 96%;
+        background-image: url(IMAGES/kopi-indonesia.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding:20px 25px;
+    }

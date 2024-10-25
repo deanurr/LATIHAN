@@ -1,18 +1,53 @@
+/*Background Image -- Height Width*/
+.skr {
+    height: 70vh;
+    width: 100%;
+    background-image: url(IMAGES/sakura6.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;a
+    padding:20px 25px;
+}
+
+.image-list {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+margin-top: 30px;
+}
+
+.images {
+    background-color: #7D3C98;
+    padding: 1.5em;
+    width: 200px;
+    text-align: center;
+}
+
+.images img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3)
+}
+
 table {
     border-collapse: collapse;
     font-size: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 th, td {
-    border: 2px solid beige (229, 43, 74);
-    text-align: left;
-    padding-left: 8px;
+    border: 2px solid: #7D3C98;
+    text-align: center;
+    padding: 10px;
+
 }
 
 th{
-    background-color: beige;
+    background-color: #7D3C98;
 }
 
 form input {
-    background-color: beige;
+    background-color: #7D3C98;
 }
