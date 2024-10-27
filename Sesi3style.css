@@ -1,12 +1,28 @@
 /*Background Image -- Height Width*/
 .skr {
-    height: 70vh;
+    height: 60vh;
     width: 100%;
     background-image: url(IMAGES/sakura6.jpg);
     background-size: cover;
     background-position: center;
     color: white;a
     padding:20px 25px;
+}
+
+.paragraf p{
+    text-align: justify;
+    margin-top: 25px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border: 5px solid #fafafa;
+    border-radius: 5px;
+    background-color: #fafafa;
+    color: black;
 }
 
 .image-list {
@@ -18,7 +34,7 @@ margin-top: 30px;
 }
 
 .images {
-    background-color: #7D3C98;
+    background-color: #fafafa;
     padding: 1.5em;
     width: 200px;
     text-align: center;
@@ -38,16 +54,15 @@ table {
 }
 
 th, td {
-    border: 2px solid: #7D3C98;
+    border: 2px solid: #fafafa;
     text-align: center;
     padding: 10px;
 
 }
 
 th{
-    background-color: #7D3C98;
+    background-color: #fafafa;
 }
-
-form input {
-    background-color: #7D3C98;
+td{
+    background-color: #fafafa;
 }
