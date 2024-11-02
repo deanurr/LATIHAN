@@ -1,10 +1,52 @@
-    /*Background Image -- Height Width*/
+   /*Background Image -- Height Width*/
     .pnd {
-        height: 80vh;
-        width: 96%;
-        background-image: url(IMAGES/kopi-indonesia.jpg);
+        height: 90vh;
+        width: 100%;
+        background-image: url(IMAGES/perpusnas1.jpeg);
         background-size: cover;
         background-position: center;
+        }
+
+    /*Border*/
+    .border {
         color: white;
-        padding:20px 25px;
+        border-style: solid;
+        text-align: center;
+        padding: 228px;
     }
+
+
+    .perpus {
+        text-align: justify;
+        text-indent: 30px;
+        margin-top: 15px;
+        margin-left: 350px;
+        margin-right: 350px;
+        margin-bottom: 25px;
+        color: black;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+    }
+
+    .image-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 10px;
+        }
+        
+        .images {
+            background-color: white;
+            padding: 1.5em;
+            width: 180px;
+            text-align: center;
+        }
+        
+        .images img {
+            max-width: 100%;
+            height: auto;
+        }

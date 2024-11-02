@@ -9,8 +9,9 @@
     padding:20px 25px;
 }
 
-.paragraf p{
+.paragraf p {
     text-align: justify;
+    text-indent: 30px;
     margin-top: 25px;
     margin-left: 250px;
     margin-right: 250px;
