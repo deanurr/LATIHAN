@@ -1,34 +1,97 @@
-.box-model {
-    width: 80px 80px;
-    padding: 35px;
-    border: 40px solid #4F0341;
-    margin: 60px;
-    background-color: #FFFFFF;
-    text-align: justify;
-    position: relative;
-}
+   /*Background Image -- Height Width*/
+   .pnd {
+    height: 90vh;
+    width: 100%;
+    background-image: url(IMAGES/perpusnas1.jpeg);
+    background-size: cover;
+    background-position: center;
+    }
 
-.outline {
+/*Border*/
+.border {
+    color: white;
+    border-style: solid;
     text-align: center;
-    color: #FFFFFF;
+    padding: 228px;
+}
+
+.box-model {
+    background-color: white;
+    width: 500px;
+    border: 15px solid grey;
     padding: 10px;
-    outline-style: dotted;
-    outline-color: codeblue;
-    outline-width: 5px;
-    outline-offset: 10px;
-    background-color: #4F0341;
-    font-family: "Roboto Mono";
-    font-size: 20px;
+    margin: 20px;
+    text-align: justify;
+    text-indent: 30px;
 }
 
-.icons {
-    padding-top: 20px;
+
+.perpus {
+    text-align: justify;
+    text-indent: 30px;
+    margin-top: 15px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 25px;
+    color: black;
 }
 
-.data-feather-instagram {
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.image-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10px;
+    }
+    
+    .images {
+        background-color: white;
+        padding: 1.5em;
+        width: 180px;
+        text-align: center;
+    }
+    
+    .images img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    th, td {
+        border: 2px solid: grey;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    th{
+        background-color: grey;
+    }
+   
+    .outline {
+        text-align: center;
+        color: #FFFFFF;
+        padding: 10px;
+        outline-style: dotted;
+        outline-color: codeblue;
+        outline-width: 5px;
+        outline-offset: 10px;
+        background-color: grey;
+        font-family: "Roboto Mono";
+        font-size: 20px;
+    }
+
+    .icons {
+        padding-top: 20px;
+    }
+    
+    .data-feather-instagram {
+        color: blue;
+    }
+    
+    .icon p i {
     color: blue;
-}
-
-.icon p i {
-color: blue;
-}
+    }

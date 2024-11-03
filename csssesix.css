@@ -1,0 +1,34 @@
+.box-model {
+    width: 80px 80px;
+    padding: 35px;
+    border: 40px solid #4F0341;
+    margin: 60px;
+    background-color: #FFFFFF;
+    text-align: justify;
+    position: relative;
+}
+
+.outline {
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px;
+    outline-style: dotted;
+    outline-color: codeblue;
+    outline-width: 5px;
+    outline-offset: 10px;
+    background-color: #4F0341;
+    font-family: "Roboto Mono";
+    font-size: 20px;
+}
+
+.icons {
+    padding-top: 20px;
+}
+
+.data-feather-instagram {
+    color: blue;
+}
+
+.icon p i {
+color: blue;
+}
