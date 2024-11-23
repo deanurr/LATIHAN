@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kabita.co.id</title>
+    <link rel="icon" type="image/x-icon" href="IMAGES/logokabita.jpeg">
+    <link rel="stylesheet" type="text/css" href="Utscss.css">
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="">Kabita Goreng Crispy</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#tentangkami">Tentang Kami</a></li>
+                    <li><a href="#produk">Produk</a></li>
+                    <li><a href="#outlet">Outlet</a></li>
+                    <li><a href="#hubungikami">Hubungi Kami</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- untuk home -->
+    <div class="wrapper">
+        <section id="home">
+            <img src="IMAGES/logokabita.jpeg"/>
+            <div class="kolom">
+                <h2>Halal, Gurih Renyah</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, aspernatur. Voluptate illo maiores praesentium repudiandae unde mollitia voluptas a dolorem voluptatibus delectus asperiores deserunt quibusdam temporibus quod, modi atque excepturi?</p>
+                <p><a href="" class="tbl-pink">Pelajari Lebih Lanjut</a></p>
+            </div>
+        </section>
+
+        <!-- untuk produk S-->
+        <section id="produk">
+            <div class="kolom">
+            <h2>Produk kami</h2>
+            <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aperiam eaque ipsum adipisci reiciendis veritatis corporis odio itaque nostrum asperiores minus magni quae, beatae molestias possimus cupiditate, fugit laudantium unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eligendi incidunt tempora iusto! Dolores, quia, officia, nemo alias aut possimus dolor consectetur reprehenderit iusto non corrupti numquam sequi minima iure?</p1>
+            </div>
+        
+
+            <div class="container">
+                <div class="content-slide">
+                    <div class="imgslide fade">
+                        <div class="numberslide">1/4</div>
+                        <img src="IMAGES/kentang goreng.jpg" alt="">
+                        <div class="text">Kentang Goreng</div>
+                    </div>
+
+                    <div class="imgslide fade">
+                        <div class="numberslide">2/4</div>
+                        <img src="IMAGES/ubi goreng.jpg" alt="">
+                        <div class="text">Ubi Goreng</div>
+                    </div>
+
+                    <div class="imgslide fade">
+                        <div class="numberslide">3/4</div>
+                        <img src="IMAGES/jamur krispi.jpg" alt="">
+                        <div class="text">Jamur Krispi</div>
+                    </div>
+
+                    <div class="imgslide fade">
+                        <div class="numberslide">4/4</div>
+                        <img src="IMAGES/baso goreng.jpg" alt="">
+                        <div class="text">Baso Goreng</div>
+                    </div>
+                    <a class="prev" onclick="nextslide(-1)">&#10094;</a>
+                    <a class="next" onclick="nextslide(1)">&#10095;</a>
+                </div>
+            
+
+            <script>
+                var slideIndex = 1;
+                    showSlide(slideIndex);
+                
+                    function nextslide(n){
+                        showSlide(slideIndex += n);
+                    }
+
+                    function showSlide (n){
+                        var i;
+                        var slides = document.getElementsByClassName("imgslide");
+
+                        if (n > slides.length) {
+                            slideIndex = 1 
+                        }
+
+                        if (n < 1) {
+                            slideIndex = slides.length;  
+                        }
+
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                        }
+
+                        slide[slideIndex - 1].style.display ="block";
+
+                    }
+            </script>
+            </div>
+    </div>
+</body>
+</html>
