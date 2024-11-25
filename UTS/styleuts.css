@@ -146,6 +146,21 @@ a.tbl-maroon:hover {
     text-decoration: none;
 }
 
+a.tbl-white {
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-white:hover {
+    background: orange;
+    text-decoration: none;
+}
+
 p {
     margin: 10px 0px 10px 0px;
     padding: 10px 0px 10px 0px;
