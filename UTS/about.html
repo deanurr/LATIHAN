@@ -6,6 +6,7 @@
     <title>kabita.co.id</title>
     <link rel="icon" type="image/x-icon" href="images/logokabita.jpeg">
     <link rel="stylesheet" type="text/css" href="styleuts.css">
+    <script src="https://kit.fontawesome.com/d67c9c20c1.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav>
@@ -21,7 +22,34 @@
                 </ul>
             </div>
         </div>
+        <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fa-solid fa-bars" id="btn"></i>
+                <i class="fa-solid fa-times" id="cancel"></i>
+            </label>
+            <div class="sidebar">
+                <header>My Page</header>
+                <ul>
+                    <li><a href="about.html"><i class="fa-solid fa-house"></i>About</a></li>
+                    <li><a href="product.html"><i class="fa-solid fa-list"></i>Menu</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn"><i class="fa-solid fa-bookmark"></i>Article  <i class="fa-solid fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                          <a href="artikel1.html"><i class="fa-solid fa-newspaper"></i>Artikel 1</a>
+                          <a href="artikel2.html"><i class="fa-solid fa-newspaper"></i>Artikel 2</a>
+                          <a href="artikel3.html"><i class="fa-solid fa-newspaper"></i>Artikel 3</a>
+                        </div>
+                      </li>
+                    <li><a href="outlet.html"><i class="fa-solid fa-location-dot"></i>Location</a></li> 
+                    <li><a href="contact.html"><i class="fa-solid fa-phone"></i>Contact</a></li>                   
+                </ul>
+            </div>
     </nav>
+
+    <br>
+    <br>
+    <br>
+    <br>
 
         <!-- untuk about -->
         <div class="wrapper">
@@ -39,7 +67,7 @@
             </section>
         </div>
         
-        <div id="contact">
+        <div style="background-color: orange;">
             <div class="wrapper">
                 <div class="footer">
                     <div class="footer-section">
@@ -65,6 +93,9 @@
                 </div>
             </div>
         </div>
-            
+        <footer style="background-color: maroon; color: white;">
+            <center><p>&copy; 2024 Kabita. Semua hak dilindungi</p></center>
+            <center><p>Design by: Dea Nur Rofika</p></center>
+        </footer>
 </body>
 </html>

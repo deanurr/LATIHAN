@@ -1,13 +1,24 @@
-* {
-    text-decoration: none;
-    margin: 0px;
-    padding: 0px;
-}
+*{
+        text-decoration: none;
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+    }
 
 body {
     margin: 0px;
     padding: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+}
+
+.kbt {
+    height: 400px;
+    width: 900px;
+    background-image: url(images/kabitafix.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
 }
 
 .wrapper {
@@ -33,8 +44,7 @@ nav {
     margin: auto;
     display: flex;
     line-height: 80px;
-    position: sticky;
-    position: -webkit-sticky;
+    position: fixed;
     top: 0;
     background: maroon;
     z-index: 1;
@@ -70,7 +80,7 @@ section {
     display: flex;
     margin-bottom: 50px;
     text-align: justify;
-    padding-top: 25px;
+    padding-top: 45px;
 }
 
 .kolom {
@@ -179,12 +189,16 @@ home {
     padding-top: 25px;
 }
 
+img{
+    border-radius: 8px;
+}
+
 .image-list {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 0px;
     }
     
 .images {
@@ -192,6 +206,7 @@ home {
     padding: 20px;
     width: 200px;
     text-align: center;
+    border-radius: 8px;
 }
     
 .images img {
@@ -223,3 +238,184 @@ home {
     margin: 0 auto;
 }
 
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: maroon;
+}
+
+.sidebar header{
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    line-height: 70px;
+    background: orange;
+    user-select: none;
+}
+
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    transition: 4s;
+}
+
+.sidebar ul li:hover a{
+    padding-left: 50px;
+}
+
+.sidebar ul a i{
+    margin-right: 16px;
+}
+
+#check{
+    display: none;
+}
+
+label #btn,label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background: orange;
+    border-radius: 3px;
+}
+
+label #btn{
+    left: 20px;
+    top: 20px;
+    font-size: 25px;
+    color: black;
+    padding: 6px;
+    transition: all .5s ease;
+}
+
+label #cancel{
+    z-index: 1111;
+    left: -195px;
+    top: 17px;
+    font-size: 30px;
+    color: black;
+    padding: 4px 9px;
+    transition: all .5s ease;
+}
+
+#check:checked ~ .sidebar{
+    left: 0;
+}
+
+#check:checked ~ label #btn{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check:checked ~ label #cancel{
+    left: 195px;
+}
+
+li.dropdown {
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: maroon;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: maroon;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .maps{
+    margin-bottom: 50px;
+  }
+
+  .animation {
+    padding-top: 40px;
+    width: 100px;
+    height: 50px;
+    background-color: maroon;
+    position: relative;
+    animation-name: example;
+    animation-duration: 30s;
+  }
+  
+  @keyframes example {
+    0%   {background-color: maroon; left:0px; top:0px;}
+    25%  {background-color: orange; left:800px; top:0px;}
+    50%  {background-color:blue; left:800px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color: maroon; left:0px; top:0px;}
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  div.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #000;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}

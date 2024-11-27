@@ -6,6 +6,7 @@
     <title>kabita.co.id</title>
     <link rel="icon" type="image/x-icon" href="images/logokabita.jpeg">
     <link rel="stylesheet" type="text/css" href="styleuts.css">
+    <script src="https://kit.fontawesome.com/d67c9c20c1.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav>
@@ -21,26 +22,45 @@
                 </ul>
             </div>
         </div>
+        <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fa-solid fa-bars" id="btn"></i>
+                <i class="fa-solid fa-times" id="cancel"></i>
+            </label>
+            <div class="sidebar">
+                <header>My Page</header>
+                <ul>
+                    <li><a href="about.html"><i class="fa-solid fa-house"></i>About</a></li>
+                    <li><a href="product.html"><i class="fa-solid fa-list"></i>Menu</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn"><i class="fa-solid fa-bookmark"></i>Article  <i class="fa-solid fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                          <a href="artikel1.html"><i class="fa-solid fa-newspaper"></i>Artikel 1</a>
+                          <a href="artikel2.html"><i class="fa-solid fa-newspaper"></i>Artikel 2</a>
+                          <a href="artikel3.html"><i class="fa-solid fa-newspaper"></i>Artikel 3</a>
+                        </div>
+                      </li>
+                    <li><a href="outlet.html"><i class="fa-solid fa-location-dot"></i>Location</a></li> 
+                    <li><a href="contact.html"><i class="fa-solid fa-phone"></i>Contact</a></li>                   
+                </ul>
+            </div>
     </nav>
 
-    <!-- untuk home -->
-    <div class="wrapper">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
-        <!-- product -->
-        <section id="product">
-            <div class="kolom">
-                <h3>Produk Kami</h3>
-                <p>Di Kabita, kami menghadirkan berbagai pilihan gorengan yang halal, gurih, dan renyah untuk memanjakan lidah Anda. Setiap produk kami dibuat dengan bahan berkualitas tinggi dan diproses dengan perhatian penuh agar Anda bisa menikmati camilan yang aman dan lezat.</p>
-                <p>Berikut adalah beberapa pilihan produk unggulan yang bisa Anda nikmati di Kabita:</p>
-            </div>
-        </section>
-        <!-- kentang -->
+    <div class="wrapper">
         <section id="product">
             <img src="images/kentang goreng.jpg"/>
             <div class="kolom">
                 <h3>Stick Kentang Crispy</h3>
+                <h3>“Kriuknya Bikin Kamu Ketagihan!”</h3>
                 <p>Nikmati kerenyahan di setiap gigitan dengan Stick Kentang Crispy kami! Kentang yang dipotong memanjang dan digoreng hingga sempurna, menghasilkan tekstur renyah di luar dan lembut di dalam. Camilan yang pas untuk menemani waktu santai Anda.</p>
-                <p>Harga: [Masukkan harga]</p>
+                <p>Harga: Rp. 5.000/porsi kecil</p>
                 <p>Bahan: Kentang, tepung, bumbu pilihan, dan rempah alami.</p>
             </div>
         </section>
@@ -49,12 +69,52 @@
          <section id="product">
             <img src="images/ubi goreng.jpg"/>
             <div class="kolom">
-                <h3>Stick Kentang Crispy</h3>
-                <p>Nikmati kerenyahan di setiap gigitan dengan Stick Kentang Crispy kami! Kentang yang dipotong memanjang dan digoreng hingga sempurna, menghasilkan tekstur renyah di luar dan lembut di dalam. Camilan yang pas untuk menemani waktu santai Anda.</p>
-                <p>Harga: [Masukkan harga]</p>
-                <p>Bahan: Kentang, tepung, bumbu pilihan, dan rempah alami.</p>
+                <h3>Ubi Goreng</h3>
+                <h3>“Nikmati Manisnya Ubi Goreng, Setiap Gigitan Penuh Kenikmatan!”</h3>
+                <p>Nikmati kerenyahan di setiap gigitan dengan Ubi Goreng kami! Ubi yang dipotong memanjang dan digoreng hingga sempurna, menghasilkan tekstur renyah di luar dan lembut di dalam. Camilan yang pas untuk menemani waktu santai Anda.</p>
+                <p>Harga: Rp. 5.000/porsi kecil</p>
+                <p>Bahan: ubi, tepung, bumbu pilihan, dan rempah alami.</p>
             </div>
         </section>
+
+        <!-- pisang goreng -->
+        <section id="product">
+            <img src="images/pisanggoreng.jpeg"/>
+            <div class="kolom">
+                <h3>Pisang Goreng</h3>
+                <h3>“Kriuknya Bikin Nagih!”</h3>
+                <p>Nikmati kelezatan pisang goreng dengan tekstur renyah di luar dan lembut di dalam. Cita rasa manis alami pisang yang dipadukan dengan lapisan tepung crispy membuat setiap gigitannya tak terlupakan. Sempurna untuk camilan kapan saja!</p>
+                <p>Harga: Rp. 5.000/porsi kecil</p>
+                <p>Bahan: pisang, tepung, bumbu pilihan, dan rempah alami.</p>
+            </div>
+        </section>
+
+         <!-- jamur crispy -->
+         <section id="product">
+            <img src="images/jamur krispi.jpg"/>
+            <div class="kolom">
+                <h3>Jamur Crispy</h3>
+                <h3>“Gurih dan Renyah, Jamur Crispy yang Penuh Rasa!”</h3>
+                <p>Ciptakan momen spesial dengan jamur crispy yang digoreng hingga renyah dan penuh rasa. Dengan lapisan tepung yang garing di luar dan tekstur jamur yang lembut di dalam, camilan ini akan menggugah selera Anda!</p>
+                <p>Harga: Rp. 5.000/porsi kecil</p>
+                <p>Bahan: jamur tiram, tepung, bumbu pilihan, dan rempah alami.</p>
+            </div>
+        </section>
+
+         <!-- bakso goreng -->
+         <section id="product">
+            <img src="images/baso goreng.jpg"/>
+            <div class="kolom">
+                <h3>Baso Goreng</h3>
+                <h3>“Baso Goreng yang Penuh Rasa, Bikin Ngemil Jadi Lebih Seru!”</h3>
+                <p>Nikmati kenikmatan baso goreng yang renyah di luar dan juicy di dalam. Dibuat dengan bahan berkualitas, baso goreng kami menyajikan rasa gurih yang sempurna di setiap gigitan. Camilan yang pas untuk santai atau menemani waktu berkumpul bersama teman.</p>
+                <p>Harga: Rp. 5.000/porsi kecil</p>
+                <p>Bahan: baso, tepung, bumbu pilihan, dan rempah alami.</p>
+            </div>
+        </section>
+
+
+
         <br>
         <section id="product">
             <div class="kolom">
@@ -70,7 +130,7 @@
     </div>
 
 
-    <div id="contact">
+    <div style="background-color: orange;">
         <div class="wrapper">
             <div class="footer">
                 <div class="footer-section">
@@ -97,7 +157,10 @@
         </div>
     </div>
         
-
+    <footer style="background-color: maroon; color: white;">
+        <center><p>&copy; 2024 Kabita. Semua hak dilindungi</p></center>
+        <center><p>Design by: Dea Nur Rofika</p></center>
+    </footer>
 
 </body>
 </html>
